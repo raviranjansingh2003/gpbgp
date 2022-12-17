@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Us</title>
+        <link rel="icon" href="images/gpbgp-logo.png" type="image/png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header sub-header-image-1">
+            <nav>
+                <a href="index.html"><img src="images/gpbgp-logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSES</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+        </section>
+
+<!-- --------About us content-------- -->
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Government Polytechnic Bhagalpur</h1>
+            <p>
+                Government Polytechnic, Bhagalpur was established as Bhagalpur School of Engineering with aim of providing quality higher education in the field of Engineering & Technology on par with National Standards. It persistently seeks and adopts innovative methods to improve the quality of higher education on a consistent basis.
+            </p>
+            <p>
+                It is spread in an area of nearly 50 acreswith four lush green campuses namely Main Campus, KanchangarhCampus,ShreeBhawan Campus and Lakshmi BhawanCampus, not far from the bank of the River Ganga at Barari.It is situated at a distance of nearly 9 Km East to Bhagalpur Railway Station and 20 Km North to Naugachhia Railway Station. The Latitudes and Longitudes are 25.2599ON and 87.0274OE.
+            </p>
+            <p>
+                The Institution was established on 31st May 1955 with its name Bhagalpur School of Engineering under the Department of Science and Technology, Govt. of Bihar which was later rechristened to its present name.Initially Institution was started with Diploma in Civil Engineering with 30 intake capacity, which was later increased to 60.Diploma in Agricultural Engineering was started in 1977 with 20 intake capacity, which was later increased to 30.In 1992, Diploma in Textile Technology & Textile Design was started with 30 intake capacity and the branch was renamed as Diploma in Textile Engineering in the year of 2008.Two latest and employment generating Diploma in Electronics Engineering and Diploma in Computer Science & Engineering were commenced with intake capacity of 60 each.
+            </p>
+        </div>
+        <div class="about-col">     
+                   <img src="images/prize.jpg" alt="">
+                   <img src="/images/full college.jpg" alt="">
+
+        </div>
+    </div>
+</section>
+
+<!-- ------- Footer -------  -->
+
+<section class="footer">
+    <h4>About us</h4>
+    <p>
+        Govt. Polytechnic Bhagalpur is one of the best Polytechnic college in Bihar AN ISO 9001:2015
+        certified Institution. NAAC ACCREDITED with 'A' Grade.
+    </p>
+    <p>
+        Made by Anshu & Co.
+        <br>
+        Copyright @ 2022
+</section>
+<!-- -------------JavaScript for toggle menu------------ -->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>
