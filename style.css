@@ -255,6 +255,7 @@ nav .fa {
 
 /* -------COURSE------- */
 .course {
+  font-size:20px;
   width: 80%;
   margin: auto;
   text-align: center;
@@ -468,33 +469,39 @@ h3 {
 
 /* --------footer-------- */
 .footer {
+  font-size: larger;
+  color: rgb(10, 10, 10);
+  background-color: rgb(8, 61, 48);
   width: 100%;
   text-align: center;
   padding: 30px 0;
 }
 
 .footer h4 {
+  font-size:x-large;
+  color: rgb(13, 13, 13);
   margin-bottom: 25px;
   margin-top: 20px;
   font-weight: 600;
 }
-
-.icons {
-  color: #f44336;
-  margin: 0 13px;
+.foot {
+  color: rgb(9, 9, 9);
+  font-size: 20px;
+}
+.icon {
   cursor: pointer;
-  /* padding: 18px 0; */
   font-size: 24px;
+  word-spacing: 40px;
 }
-
-.icons-blue {
-  color: #3f5177;
-  cursor: pointer;
-  font-size: 18px;
+.fab{
+  color: #19eaead7;
 }
-
+.mission{
+  padding: 20px;
+  background-color: #777;
+  color: rgb(0, 0, 0);
+}
 /* ------------Sub header---------- */
-
 .sub-header {
   height: 50vh;
   width: 100%;
